@@ -3,3 +3,40 @@
 @import "_reset";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:700|Nanum+Gothic');
+
+header{
+  img{
+    width: 170px;
+    margin-left: -5%;
+  }
+  button{
+    float: right;
+    margin-top: 11%;
+    font-size: 180%;
+    background-color: $first;
+    color: $fourth;
+    border: none;
+    margin-right: 3%;
+  }
+  nav{
+    display: none;
+    background-color: $fifth;
+    ul{
+      list-style-type: none;
+      li{
+        a{
+          text-decoration: none;
+          color: $fourth;
+        }
+      }
+    }
+  }
+}
+
+main{
+
+}
+
+footer{
+
+}

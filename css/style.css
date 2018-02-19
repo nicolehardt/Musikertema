@@ -1,4 +1,5 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:700|Nanum+Gothic");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,4 +8,39 @@
 html, body {
   padding: 0;
   margin: 0;
+  background-color: #353535;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: 'Arima Madurai', cursive;
+}
+
+p, a {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+header img {
+  width: 170px;
+  margin-left: -5%;
+}
+header button {
+  float: right;
+  margin-top: 11%;
+  font-size: 180%;
+  background-color: #353535;
+  color: #BDBBB0;
+  border: none;
+  margin-right: 3%;
+}
+header nav {
+  display: none;
+  background-color: #8A897C;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #BDBBB0;
 }
