@@ -30,18 +30,23 @@ p, a {
   margin: 0;
 }
 
+header {
+  background-color: #8A897C;
+  position: fixed;
+  width: 100%;
+}
 header img {
-  width: 170px;
-  margin-left: -5%;
+  width: 130px;
+  margin-left: -1%;
 }
 header button {
   float: right;
-  margin-top: 11%;
+  margin-top: 8%;
   font-size: 180%;
-  background-color: #353535;
-  color: #BDBBB0;
+  background-color: #8A897C;
+  color: #353535;
   border: none;
-  margin-right: 3%;
+  margin-right: 5%;
 }
 header nav {
   display: none;
@@ -56,14 +61,15 @@ header nav ul li a {
 }
 
 main {
+  padding-top: 7em;
   width: 90%;
   margin: 0 auto;
 }
+main img {
+  width: 100%;
+}
 main section {
   margin-bottom: 10%;
-}
-main #udenu img {
-  width: 100%;
 }
 main #spotify iframe {
   margin-top: 5%;
