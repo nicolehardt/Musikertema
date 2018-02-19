@@ -49,6 +49,14 @@ main{
       margin-top: 5%;
     }
   }
+  #nyheder{
+    article{
+      margin-bottom: 7%;
+      a{
+        color: $second;
+      }
+    }
+  }
 }
 
 footer{

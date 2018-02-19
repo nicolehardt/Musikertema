@@ -17,6 +17,14 @@ h1, h2 {
   margin: 0;
 }
 
+h1 {
+  font-size: 250%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
 p, a {
   font-family: 'Nanum Gothic', sans-serif;
   margin: 0;
@@ -59,4 +67,10 @@ main #udenu img {
 }
 main #spotify iframe {
   margin-top: 5%;
+}
+main #nyheder article {
+  margin-bottom: 7%;
+}
+main #nyheder article a {
+  color: #FFFFFF;
 }
