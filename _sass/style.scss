@@ -1,10 +1,10 @@
 @import "_mixin";
 @import "_variables";
 @import "_reset";
-@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:700|Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:700|Nanum+Gothic');
 
 header{
-  background-color: $fifth;
+  //background-color: $fifth;
   position: fixed;
   width: 100%;
   img{
@@ -15,7 +15,7 @@ header{
     float: right;
     margin-top: 8%;
     font-size: 180%;
-    background-color: $fifth;
+    background-color: transparent;
     color: $first;
     border: none;
     margin-right: 5%;
@@ -38,7 +38,7 @@ header{
 main{
   padding-top: 7em;
   img{
-    width: 100%;
+    width: 49%;
   }
   width: 90%;
   margin: 0 auto;
@@ -46,6 +46,9 @@ main{
     margin-bottom: 10%;
   }
   #udenu{
+    img{
+      width: 100%;
+    }
   }
   #spotify{
     iframe{
@@ -61,6 +64,9 @@ main{
     }
   }
   #omfreija{
+    img{
+      width: 100%;
+    }
   }
 }
 
