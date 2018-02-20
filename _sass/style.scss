@@ -8,8 +8,9 @@ header{
   position: fixed;
   width: 100%;
   img{
-    width: 130px;
-    margin-left: -1%;
+    width: 70px;
+    margin-top: 2%;
+    margin-left: 5%;
   }
   button{
     float: right;
@@ -36,14 +37,14 @@ header{
 }
 
 main{
-  padding-top: 7em;
   img{
     width: 49%;
   }
   width: 90%;
   margin: 0 auto;
   section{
-    margin-bottom: 10%;
+    padding-top: 6.5em;
+    //margin-bottom: 10%;
   }
   #udenu{
     img{
@@ -66,6 +67,11 @@ main{
   #omfreija{
     img{
       width: 100%;
+    }
+  }
+  #fotos{
+    section{
+      padding-top: 0;
     }
   }
 }
