@@ -4,6 +4,6 @@ window.onload = function(){
 
 $(document).ready(function(){
   $('#facebook').click (function(){
-    $('iframe').toggle('slow');
+    $('iframe').slideToggle('slow');
   });
 });
