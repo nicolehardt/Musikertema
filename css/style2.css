@@ -28,3 +28,9 @@ p, a {
   font-family: 'Nanum Gothic', sans-serif;
   margin: 0;
 }
+
+body {
+  background-image: url("./waterphone.jpg");
+  background-repeat: no-repeat;
+  height: 1500px;
+}
