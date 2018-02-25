@@ -82,6 +82,7 @@ footer section h1 {
   body {
     background-image: url("./background2.jpg");
     background-size: cover;
+    height: auto;
   }
 
   .mobil {
@@ -97,27 +98,28 @@ footer section h1 {
   }
   header #freija {
     padding-top: 2.6em;
-    width: 25%;
+    width: 15%;
   }
   header .logo {
-    width: 10%;
+    width: 8%;
     padding-top: 0.5em;
   }
 
   main iframe {
-    margin: 2.3% auto;
+    margin: 2% auto;
     border-radius: 3%;
   }
 
   footer section {
     width: 900px;
     padding-bottom: 2%;
+    margin-bottom: 2%;
   }
   footer section h1 {
     padding: 3% 0 2% 3%;
   }
   footer #facebookframe iframe {
     margin: 0 auto;
-    height: 350px;
+    height: 380px;
   }
 }

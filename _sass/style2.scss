@@ -58,6 +58,7 @@ footer{
   body{
     background-image: url('./background2.jpg');
     background-size: cover;
+    height: auto;
   }
 
   .mobil{
@@ -70,16 +71,16 @@ footer{
     padding-top: 0;
     #freija{
       padding-top: 2.6em;
-      width: 25%;
+      width: 15%;
     }
     .logo{
-      width: 10%;
+      width: 8%;
       padding-top: 0.5em;
     }
   }
   main{
     iframe{
-      margin: 2.3% auto;
+      margin: 2% auto;
       border-radius: 3%;
       //box-shadow: inset 0px 0px 40px 40px $first;
     }
@@ -88,6 +89,7 @@ footer{
     section{
       width: 900px;
       padding-bottom: 2%;
+      margin-bottom: 2%;
       h1{
         padding: 3% 0 2% 3%;
       }
@@ -95,7 +97,7 @@ footer{
     #facebookframe{
       iframe{
         margin: 0 auto;
-        height: 350px;
+        height: 380px;
       }
     }
   }
