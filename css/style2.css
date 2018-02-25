@@ -62,9 +62,12 @@ footer button {
   border: none;
   color: #FFFFFF;
 }
-footer iframe {
+footer #facebookframe {
   display: none;
 }
 footer blockquote {
+  display: none;
+}
+footer section {
   display: none;
 }

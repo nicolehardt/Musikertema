@@ -4,11 +4,21 @@ window.onload = function(){
 
 $(document).ready(function(){
   $('#facebook').click (function(){
-    $('iframe').slideToggle('slow');
+    $('#facebookframe').slideToggle('slow');
     $('#portrait').toggle('slow');
+    $('#instagram').toggle('slow');
+    $('#youtube').toggle('slow');
   });
   $('#instagram').click (function() {
     $('blockquote').slideToggle('slow')
     $('#portrait').toggle('slow');
-  })
+    $('#facebook').toggle('slow');
+    $('#youtube').toggle('slow');
+  });
+  $('#youtube').click(function () {
+    $('#youtubeframe').slideToggle('slow');
+    $('#portrait').toggle('slow');
+    $('#instagram').toggle('slow');
+    $('#facebook').toggle('slow');
+  });
 });

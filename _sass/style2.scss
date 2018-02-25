@@ -36,11 +36,14 @@ footer{
     border: none;
     color: $second;
   }
-  iframe{
+  #facebookframe{
     //margin-left: -490px;
     display: none;
   }
   blockquote{
+    display: none;
+  }
+  section{
     display: none;
   }
 }
