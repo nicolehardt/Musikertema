@@ -7,7 +7,6 @@
 html, body {
   padding: 0;
   margin: 0;
-  background-color: #353535;
   color: #BDBBB0;
 }
 
@@ -17,7 +16,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 250%;
+  font-size: 45%;
 }
 
 h2 {
@@ -64,12 +63,14 @@ footer button {
   border: none;
   color: #FFFFFF;
 }
-footer #facebookframe {
-  display: none;
-}
-footer blockquote {
-  display: none;
-}
 footer section {
   display: none;
+  width: 93%;
+  margin: 0 auto;
+  background-color: #8A897C;
+}
+footer section h1 {
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 5%;
 }

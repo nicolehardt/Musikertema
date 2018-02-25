@@ -10,7 +10,7 @@ $(document).ready(function(){
     $('#youtube').toggle('slow');
   });
   $('#instagram').click (function() {
-    $('blockquote').slideToggle('slow')
+    $('#instagramframe').slideToggle('slow')
     $('#portrait').toggle('slow');
     $('#facebook').toggle('slow');
     $('#youtube').toggle('slow');
