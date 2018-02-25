@@ -32,5 +32,10 @@ p, a {
 body {
   background-image: url("./waterphone.jpg");
   background-repeat: no-repeat;
-  height: 1500px;
+  height: 812px;
+}
+
+main img {
+  margin-left: -40%;
+  margin-top: 8%;
 }
