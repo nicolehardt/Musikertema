@@ -58,3 +58,9 @@ footer {
   color: #353535;
   text-align: center;
 }
+footer iframe {
+  display: none;
+}
+footer blockquote {
+  display: none;
+}

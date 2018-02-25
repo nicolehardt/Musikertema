@@ -33,4 +33,10 @@ footer{
   font-size: 50px;
   color: $first;
   text-align: center;
+  iframe{
+    display: none;
+  }
+  blockquote{
+    display: none;
+  }
 }
