@@ -51,3 +51,10 @@ main img {
   margin-left: -40%;
   margin-top: 8%;
 }
+
+footer {
+  margin-top: 0.5em;
+  font-size: 50px;
+  color: #353535;
+  text-align: center;
+}
