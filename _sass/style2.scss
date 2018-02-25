@@ -30,8 +30,12 @@ main{
 footer{
   margin-top: 0.5em;
   font-size: 50px;
-  color: $first;
   text-align: center;
+  button{
+    background-color: transparent;
+    border: none;
+    color: $second;
+  }
   iframe{
     display: none;
   }
