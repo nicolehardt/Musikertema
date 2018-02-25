@@ -27,6 +27,9 @@ main{
     margin-top: 8%;
     width: 100%;
   }
+  iframe{
+    display: none;
+  }
 }
 
 footer{
@@ -53,6 +56,7 @@ footer{
 @media screen and (min-width:901px){
   body{
     background-image: url('./background.jpg');
+    background-size: cover;
   }
   header{
     padding-top: 0;
@@ -68,6 +72,11 @@ footer{
   main{
     img{
       display: none;
+    }
+    iframe{
+      display: block;
+      margin: 2% auto;
+
     }
   }
 }

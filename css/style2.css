@@ -52,6 +52,9 @@ main img {
   margin-top: 8%;
   width: 100%;
 }
+main iframe {
+  display: none;
+}
 
 footer {
   margin-top: 0.5em;
@@ -77,6 +80,7 @@ footer section h1 {
 @media screen and (min-width: 901px) {
   body {
     background-image: url("./background.jpg");
+    background-size: cover;
   }
 
   header {
@@ -93,5 +97,9 @@ footer section h1 {
 
   main img {
     display: none;
+  }
+  main iframe {
+    display: block;
+    margin: 2% auto;
   }
 }
