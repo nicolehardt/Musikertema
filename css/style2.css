@@ -38,6 +38,8 @@ body {
 header {
   text-align: center;
   padding-top: 2.5em;
+  -webkit-transition: opacity 2s ease in;
+  transition: opacity 2s ease in;
 }
 header #freija {
   width: 55%;

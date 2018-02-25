@@ -12,6 +12,7 @@ body{
 header{
   text-align: center;
   padding-top: 2.5em;
+  transition: opacity 2s ease in;
   #freija{
     width: 55%;
   }
