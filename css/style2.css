@@ -37,14 +37,13 @@ body {
 
 header {
   text-align: center;
+  padding-top: 2.5em;
 }
 header #freija {
   width: 55%;
-  padding-bottom: 1em;
 }
 header .logo {
   width: 21%;
-  padding-top: 2.5em;
 }
 
 main img {
