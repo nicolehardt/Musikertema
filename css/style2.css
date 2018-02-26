@@ -72,13 +72,13 @@ main ul {
 }
 
 footer {
-  font-size: 50px;
   text-align: center;
 }
 footer button {
   background-color: transparent;
   border: none;
   color: #FFFFFF;
+  font-size: 40px;
 }
 footer section {
   display: none;
@@ -89,7 +89,6 @@ footer section h1 {
   text-align: left;
   padding-left: 4.5%;
   padding-top: 5%;
-  font-size: 45%;
 }
 
 @media screen and (min-width: 901px) {
