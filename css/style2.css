@@ -130,6 +130,9 @@ footer #facebookframe {
     margin: 2% auto;
     border-radius: 3%;
   }
+  main article {
+    width: 900px;
+  }
 
   footer section {
     width: 900px;
