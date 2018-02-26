@@ -55,6 +55,9 @@ header #burger {
   border: none;
   font-size: 150%;
 }
+header nav {
+  display: none;
+}
 
 main img {
   margin-top: 8%;
