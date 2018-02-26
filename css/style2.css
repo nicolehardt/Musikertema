@@ -51,6 +51,11 @@ header #freija {
 header .logo {
   width: 21%;
 }
+header #burger {
+  background: transparent;
+  border: none;
+  font-size: 150%;
+}
 
 main img {
   margin-top: 8%;
