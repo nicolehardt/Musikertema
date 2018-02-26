@@ -85,13 +85,18 @@ footer button {
 }
 footer section {
   display: none;
-  margin: 0 auto;
+  margin: 0 auto 1em auto;
   background-color: #8A897C;
+  width: 90%;
+  padding-bottom: 0.5em;
 }
 footer section h1 {
   text-align: left;
   padding-left: 4.5%;
   padding-top: 5%;
+}
+footer #facebookframe {
+  display: block;
 }
 
 @media screen and (min-width: 901px) {
@@ -133,9 +138,5 @@ footer section h1 {
   }
   footer section h1 {
     padding: 3% 0 2% 3%;
-  }
-  footer #facebookframe iframe {
-    margin: 0 auto;
-    height: 380px;
   }
 }

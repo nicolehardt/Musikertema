@@ -63,14 +63,19 @@ footer{
   }
   section{
     display: none;
-    margin: 0 auto;
+    margin: 0 auto 1em auto;
     background-color: $fifth;
+    width: 90%;
+    padding-bottom: 0.5em;
     h1{
       text-align: left;
       padding-left: 4.5%;
       padding-top: 5%;
       //font-size: 45%;
     }
+  }
+  #facebookframe{
+    display: block;
   }
 }
 
@@ -112,12 +117,6 @@ footer{
       margin-bottom: 2%;
       h1{
         padding: 3% 0 2% 3%;
-      }
-    }
-    #facebookframe{
-      iframe{
-        margin: 0 auto;
-        height: 380px;
       }
     }
   }

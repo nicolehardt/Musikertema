@@ -2,16 +2,12 @@
   //alert('welcome');
 };*/
 
+
+/*
 $(document).ready(function(){
   $('#facebook').click (function(){
     $('#facebookframe').slideToggle('slow');
-
-    console.log(window.width);
-/*
-    if(window.width < 400){
     $('#portrait').toggle('slow');
-  }*/
-
     $('#instagram').toggle('slow');
     $('#spotify').toggle('slow');
     $('#youtube').toggle('slow');
@@ -36,5 +32,33 @@ $(document).ready(function(){
     $('#instagram').toggle('slow');
     $('#spotify').toggle('slow');
     $('#facebook').toggle('slow');
+  });
+});
+*/
+
+$(document).ready(function(){
+  $('#facebook').click (function(){
+    $('#facebookframe').show('slow');
+    $('#instagramframe').hide('slow');
+    $('#spotifyframe').hide('slow');
+    $('#youtubeframe').hide('slow');
+  });
+  $('#instagram').click (function() {
+    $('#instagramframe').show('slow')
+    $('#facebookframe').hide('slow');
+    $('#spotifyframe').hide('slow');
+    $('#youtubeframe').hide('slow');
+  });
+  $('#spotify').click (function() {
+    $('#spotifyframe').show('slow')
+    $('#facebookframe').hide('slow');
+    $('#instagramframe').hide('slow');
+    $('#youtubeframe').hide('slow');
+  });
+  $('#youtube').click (function() {
+    $('#youtubeframe').show('slow')
+    $('#facebookframe').hide('slow');
+    $('#spotifyframe').hide('slow');
+    $('#instagramframe').hide('slow');
   });
 });
