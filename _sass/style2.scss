@@ -30,7 +30,20 @@ header{
     font-size: 150%;
   }
   nav{
-    display: none;
+    height: 100%;
+    ul{
+      background-color: $fifth;
+      a{
+        color: $second;
+        text-decoration: none;
+        font-size: 150%;
+      }
+    }
+
+  }
+  .burgermenu{
+    position: absolute;
+    left: 100%;
   }
 }
 

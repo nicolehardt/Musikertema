@@ -56,7 +56,19 @@ header #burger {
   font-size: 150%;
 }
 header nav {
-  display: none;
+  height: 100%;
+}
+header nav ul {
+  background-color: #8A897C;
+}
+header nav ul a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 150%;
+}
+header .burgermenu {
+  position: absolute;
+  left: 100%;
 }
 
 main img {
