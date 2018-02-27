@@ -58,6 +58,11 @@ $(document).ready(function(){
     //$('#freija').show();
     //$('.logo').show();
   });
+  $('.navforsvind').click (function () {
+    $('nav').hide('slow');
+    $('#cross').hide('slow');
+    $('#burger').show('slow');
+  })
   $('#facebook').click (function(){
     $('#facebookframe').show('slow');
     $('#instagramframe').hide('slow');
