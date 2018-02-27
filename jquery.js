@@ -37,6 +37,9 @@ $(document).ready(function(){
 */
 
 $(document).ready(function(){
+  $('#overlay').click (function () {
+    $('#overlay').hide();
+  });
   $('#facebook').click (function(){
     $('#facebookframe').show('slow');
     $('#instagramframe').hide('slow');

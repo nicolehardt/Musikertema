@@ -10,6 +10,20 @@ body{
   //height: 812px;
 }
 
+#overlay{
+  position: fixed;
+  width: 100%;
+  background-color: $third;
+  opacity: 0.9;
+  z-index: 3;
+  height: 100%;
+}
+#logo{
+  width: 95%;
+  position: absolute;
+  top: 10%;
+}
+
 .desktop{
   display: none;
 }
@@ -21,9 +35,9 @@ header{
   #freija{
     width: 55%;
   }
-  .logo{
+  /*.logo{
     width: 21%;
-  }
+  }*/
   #burger, #cross{
     background: transparent;
     border: none;

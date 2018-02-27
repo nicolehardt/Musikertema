@@ -34,6 +34,21 @@ body {
   background-attachment: fixed;
 }
 
+#overlay {
+  position: fixed;
+  width: 100%;
+  background-color: #9B7A80;
+  opacity: 0.9;
+  z-index: 3;
+  height: 100%;
+}
+
+#logo {
+  width: 95%;
+  position: absolute;
+  top: 10%;
+}
+
 .desktop {
   display: none;
 }
@@ -43,12 +58,12 @@ header {
   padding-top: 2.5em;
   -webkit-transition: opacity 2s ease in;
   transition: opacity 2s ease in;
+  /*.logo{
+    width: 21%;
+  }*/
 }
 header #freija {
   width: 55%;
-}
-header .logo {
-  width: 21%;
 }
 header #burger, header #cross {
   background: transparent;
