@@ -65,10 +65,16 @@ $(document).ready(function(){
     $('nav').removeClass('burgermenu');
     $('#cross').show('slow');
     $('#burger').hide();
+    $('#freija').hide();
+    $('.logo').hide();
+    //$('ul').addClass('fjernmargin');
+    $('header').addClass('burgerheader');
   });
   $('#cross').click (function() {
     $('nav').addClass('burgermenu');
     $('#burger').show('slow');
     $('#cross').hide();
+    $('#freija').show();
+    $('.logo').show();
   });
 });
