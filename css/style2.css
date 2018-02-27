@@ -55,8 +55,7 @@ body {
 }
 
 header {
-  text-align: center;
-  padding-top: 2.5em;
+  padding-top: 0.5em;
   -webkit-transition: opacity 2s ease in;
   transition: opacity 2s ease in;
   /*.logo{
@@ -69,18 +68,19 @@ header {
 }
 header #freija {
   width: 55%;
+  margin-left: 5%;
 }
 header #burgerknapper {
-  display: fixed;
   font-size: 200%;
   position: absolute;
-  left: 80%;
-  top: 6%;
+  left: 85%;
+  top: 3%;
   z-index: 2;
 }
 header #burgerknapper button {
   background: transparent;
   border: none;
+  position: fixed;
 }
 header #burgerknapper #cross {
   display: none;
@@ -96,21 +96,23 @@ header nav {
   top: 0;
 }
 header nav ul {
-  background-color: #8A897C;
+  background-color: #9B7A80;
   position: fixed;
   width: 100%;
   height: 100%;
   opacity: 0.965;
   z-index: 1;
   margin: 0;
-  padding: 0;
+  padding: 3em 0;
   list-style-type: none;
 }
 header nav ul a {
-  color: #FFFFFF;
+  color: #353535;
   text-decoration: none;
   font-size: 150%;
   opacity: 1;
+  font-size: 200%;
+  margin: 1em auto;
 }
 
 main img {

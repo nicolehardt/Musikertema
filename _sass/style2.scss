@@ -30,31 +30,32 @@ body{
 }
 
 header{
-  text-align: center;
-  padding-top: 2.5em;
+  //text-align: center;
+  padding-top: 0.5em;
   transition: opacity 2s ease in;
   #freija{
     width: 55%;
+    margin-left: 5%;
   }
   /*.logo{
     width: 21%;
   }*/
   #burgerknapper{
-    display: fixed;
     font-size: 200%;
     position: absolute;
-    left: 80%;
-    top: 6%;
+    left: 85%;
+    top: 3%;
     z-index: 2;
     button{
       background: transparent;
       border: none;
+      position: fixed;
     }
     #cross{
       display: none;
     }
   }
-  
+
   .burgerheader{
     margin: 0;
     height: 0;
@@ -66,20 +67,22 @@ header{
     position: absolute;
     top: 0;
     ul{
-      background-color: $fifth;
+      background-color: $third;
       position: fixed;
       width: 100%;
       height: 100%;
       opacity: 0.965;
       z-index: 1;
       margin: 0;
-      padding: 0;
+      padding: 3em 0;
       list-style-type: none;
       a{
-        color: $second;
+        color: $first;
         text-decoration: none;
         font-size: 150%;
         opacity: 1;
+        font-size: 200%;
+        margin: 1em auto;
       }
     }
 
