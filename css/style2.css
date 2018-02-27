@@ -164,6 +164,16 @@ footer #facebookframe {
     height: auto;
   }
 
+  #overlay {
+    text-align: center;
+  }
+  #overlay img {
+    width: 28%;
+    left: 35%;
+    /*display: block;
+    margin: 0 auto;*/
+  }
+
   .mobil {
     display: none;
   }

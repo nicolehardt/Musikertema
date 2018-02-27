@@ -147,6 +147,16 @@ footer{
     height: auto;
   }
 
+  #overlay{
+    text-align: center;
+    img{
+      width: 28%;
+      left: 35%;
+      /*display: block;
+      margin: 0 auto;*/
+    }
+  }
+
   .mobil{
     display: none;
   }
