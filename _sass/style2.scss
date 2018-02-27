@@ -176,7 +176,7 @@ footer{
   }
   main{
     iframe{
-      margin: 2% auto;
+      margin: 4% auto;
       //border-radius: 3%;
       //box-shadow: inset 0px 0px 40px 40px $first;
     }
@@ -191,6 +191,9 @@ footer{
       margin-bottom: 2%;
       h1{
         padding: 3% 0 2% 3%;
+      }
+      iframe{
+        width: 340px;
       }
     }
   }
