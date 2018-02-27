@@ -62,6 +62,13 @@ $(document).ready(function(){
     $('#instagramframe').hide('slow');
   });
   $('#burger').click (function() {
-    $('nav').toggleClass('burgermenu');
+    $('nav').removeClass('burgermenu');
+    $('#cross').show('slow');
+    $('#burger').hide();
+  });
+  $('#cross').click (function() {
+    $('nav').addClass('burgermenu');
+    $('#burger').show('slow');
+    $('#cross').hide();
   });
 });

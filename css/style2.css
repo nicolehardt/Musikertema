@@ -50,10 +50,13 @@ header #freija {
 header .logo {
   width: 21%;
 }
-header #burger {
+header #burger, header #cross {
   background: transparent;
   border: none;
   font-size: 150%;
+}
+header #cross {
+  display: none;
 }
 header nav {
   height: 100%;

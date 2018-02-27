@@ -24,10 +24,13 @@ header{
   .logo{
     width: 21%;
   }
-  #burger{
+  #burger, #cross{
     background: transparent;
     border: none;
     font-size: 150%;
+  }
+  #cross{
+    display: none;
   }
   nav{
     height: 100%;
