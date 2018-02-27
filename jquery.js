@@ -44,21 +44,24 @@ $(document).ready(function(){
     $('#youtubeframe').hide('slow');
   });
   $('#instagram').click (function() {
-    $('#instagramframe').show('slow')
+    $('#instagramframe').show('slow');
     $('#facebookframe').hide('slow');
     $('#spotifyframe').hide('slow');
     $('#youtubeframe').hide('slow');
   });
   $('#spotify').click (function() {
-    $('#spotifyframe').show('slow')
+    $('#spotifyframe').show('slow');
     $('#facebookframe').hide('slow');
     $('#instagramframe').hide('slow');
     $('#youtubeframe').hide('slow');
   });
   $('#youtube').click (function() {
-    $('#youtubeframe').show('slow')
+    $('#youtubeframe').show('slow');
     $('#facebookframe').hide('slow');
     $('#spotifyframe').hide('slow');
     $('#instagramframe').hide('slow');
+  });
+  $('#burger').click (function() {
+    $('nav').toggleClass('burgermenu');
   });
 });
