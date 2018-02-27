@@ -122,7 +122,6 @@ main img {
 }
 main article {
   background-color: #FFFFFF;
-  border-radius: 3%;
   width: 90%;
   margin: 4em auto;
   padding: 1em 4.5%;
@@ -196,7 +195,6 @@ footer #facebookframe {
 
   main iframe {
     margin: 2% auto;
-    border-radius: 3%;
   }
   main article {
     width: 900px;
