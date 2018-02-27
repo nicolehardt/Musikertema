@@ -183,14 +183,19 @@ footer #facebookframe {
 
   header {
     padding-top: 0;
+    /*.logo{
+      width: 8%;
+      padding-top: 0.5em;
+    }*/
   }
   header #freija {
     padding-top: 2.6em;
     width: 15%;
+    margin-left: 5.3%;
   }
-  header .logo {
-    width: 8%;
-    padding-top: 0.5em;
+  header #burgerknapper {
+    top: 10%;
+    left: 91.5%;
   }
 
   main iframe {
