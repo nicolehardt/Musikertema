@@ -197,8 +197,6 @@ footer #facebookframe {
   }
 
   #overlay #overlaycross {
-    top: 10%;
-    left: 86.5%;
     font-size: 200%;
   }
   #overlay img {
@@ -218,6 +216,7 @@ footer #facebookframe {
 
   header {
     padding-top: 0;
+    margin-bottom: 10%;
     /*.logo{
       width: 8%;
       padding-top: 0.5em;
@@ -226,11 +225,11 @@ footer #facebookframe {
   header #freija {
     padding-top: 2.6em;
     width: 15%;
-    margin-left: 10.5%;
+    margin-left: 12.6%;
   }
   header #burgerknapper {
-    top: 10%;
-    left: 86.5%;
+    margin-left: 58%;
+    margin-top: 5%;
     font-size: 200%;
   }
 

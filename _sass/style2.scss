@@ -196,8 +196,8 @@ footer{
   #overlay{
     //text-align: center;
     #overlaycross{
-      top: 10%;
-      left: 86.5%;
+      //top: 10%;
+      //left: 86.5%;
       font-size: 200%;
     }
     img{
@@ -216,14 +216,17 @@ footer{
   }
   header{
     padding-top: 0;
+    margin-bottom: 10%;
     #freija{
       padding-top: 2.6em;
       width: 15%;
-      margin-left: 10.5%;
+      margin-left: 12.6%;
     }
     #burgerknapper{
-      top: 10%;
-      left: 86.5%;
+      //top: 10%;
+      //left: 86.5%;
+      margin-left: 58%;
+      margin-top: 5%;
       font-size: 200%;
     }
     /*.logo{
