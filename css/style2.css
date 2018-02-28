@@ -68,13 +68,6 @@ header {
   padding-top: 0.5em;
   -webkit-transition: opacity 2s ease in;
   transition: opacity 2s ease in;
-  /*.logo{
-    width: 21%;
-  }*/
-  /*.burgermenu{
-    position: absolute;
-    left: 100%;
-  }*/
 }
 header #freija {
   width: 55%;
@@ -219,10 +212,6 @@ footer #facebookframe {
   header {
     padding-top: 0;
     margin-bottom: 10%;
-    /*.logo{
-      width: 8%;
-      padding-top: 0.5em;
-    }*/
   }
   header #freija {
     width: 15%;
@@ -261,8 +250,6 @@ footer #facebookframe {
   #overlay img {
     width: 28%;
     left: 35%;
-    /*display: block;
-    margin: 0 auto;*/
   }
 
   header #freija {
