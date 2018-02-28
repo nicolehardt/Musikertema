@@ -160,6 +160,10 @@ footer #facebookframe {
   body {
     background-size: cover;
   }
+
+  #instagramframe {
+    padding-left: 1em;
+  }
 }
 @media screen and (min-width: 901px) {
   body {
