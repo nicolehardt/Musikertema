@@ -161,6 +161,10 @@ footer #facebookframe {
     background-size: cover;
   }
 
+  header #burgerknapper {
+    font-size: 320%;
+  }
+
   #instagramframe {
     padding-left: 1em;
   }
