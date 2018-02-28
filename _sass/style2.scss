@@ -222,13 +222,7 @@ footer{
       width: 15%;
       margin-left: 12.6%;
     }
-    #burgerknapper{
-      //top: 10%;
-      //left: 86.5%;
-      margin-left: 58%;
-      margin-top: 5%;
-      font-size: 200%;
-    }
+
     /*.logo{
       width: 8%;
       padding-top: 0.5em;
@@ -255,6 +249,18 @@ footer{
     }
     #instagramframe{
       padding-left: 5em;
+    }
+  }
+}
+
+@media screen and (min-width:1150px){
+  header{
+    #burgerknapper{
+      //top: 10%;
+      //left: 86.5%;
+      margin-left: 58%;
+      margin-top: 5%;
+      font-size: 200%;
     }
   }
 }

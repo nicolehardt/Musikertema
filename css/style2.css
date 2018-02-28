@@ -227,11 +227,6 @@ footer #facebookframe {
     width: 15%;
     margin-left: 12.6%;
   }
-  header #burgerknapper {
-    margin-left: 58%;
-    margin-top: 5%;
-    font-size: 200%;
-  }
 
   main iframe {
     margin: 4% auto;
@@ -250,5 +245,12 @@ footer #facebookframe {
   }
   footer #instagramframe {
     padding-left: 5em;
+  }
+}
+@media screen and (min-width: 1150px) {
+  header #burgerknapper {
+    margin-left: 58%;
+    margin-top: 5%;
+    font-size: 200%;
   }
 }
