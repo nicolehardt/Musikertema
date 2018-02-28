@@ -48,7 +48,9 @@ body {
   font-size: 200%;
   z-index: 4;
   display: inline-block;
-  margin-left: 90px;
+  float: right;
+  margin-right: 5%;
+  margin-top: 6%;
 }
 
 #logo {
