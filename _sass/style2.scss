@@ -137,9 +137,11 @@ footer{
     width: 90%;
     padding-bottom: 0.5em;
     h1{
-      text-align: left;
-      padding-left: 4.5%;
+      //text-align: left;
       padding-top: 5%;
+      padding-bottom: 2%;
+      //padding-left: 4.5%;
+      //padding-top: 5%;
       font-size: 127%;
       //font-size: 45%;
     }
@@ -228,20 +230,20 @@ footer{
       //box-shadow: inset 0px 0px 40px 40px $first;
     }
     article{
-      width: 900px;
+      width: 800px;
     }
   }
   footer{
     section{
-      width: 900px;
+      width: 800px;
       padding-bottom: 2%;
       margin-bottom: 2%;
-      h1{
-        padding: 3% 0 2% 3%;
-      }
       iframe{
         width: 340px;
       }
+    }
+    #instagramframe{
+      padding-left: 5em;
     }
   }
 }
