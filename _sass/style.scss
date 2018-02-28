@@ -84,14 +84,15 @@ header{
       margin: 0;
       padding: 3em 0;
       list-style-type: none;
-      a{
-        color: $first;
-        text-decoration: none;
-        font-size: 150%;
-        opacity: 1;
-        font-size: 200%;
-        margin: 1em;
+      li{
         text-align: center;
+        a{
+          color: $first;
+          text-decoration: none;
+          opacity: 1;
+          font-size: 200%;
+          text-align: center;
+        }
       }
     }
   }
