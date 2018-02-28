@@ -156,6 +156,11 @@ footer #facebookframe {
   display: block;
 }
 
+@media screen and (min-width: 700px) {
+  body {
+    background-size: cover;
+  }
+}
 @media screen and (min-width: 901px) {
   body {
     background-image: url("./background2.jpg");
