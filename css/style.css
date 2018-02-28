@@ -111,14 +111,17 @@ header nav ul {
   padding: 3em 0;
   list-style-type: none;
 }
-header nav ul a {
+
+header nav ul li{
+  text-align: center;
+  margin: 4em;
+}
+
+header nav ul li a {
   color: #353535;
   text-decoration: none;
-  font-size: 150%;
   opacity: 1;
   font-size: 200%;
-  margin: 1em;
-  text-align: center;
 }
 
 main img {
@@ -180,6 +183,10 @@ footer #facebookframe {
     top: 5%;
   }
 
+  header nav ul li {
+    font-size: 170%;
+  }
+
   #instagramframe {
     padding-left: 1em;
   }
@@ -223,6 +230,9 @@ footer #facebookframe {
     margin-left: 68%;
     margin-top: 5%;
   }
+  header nav ul li {
+    font-size: 140%;
+  }
 
   main iframe {
     margin: 4% auto;
@@ -259,5 +269,8 @@ footer #facebookframe {
     margin-left: 58%;
     margin-top: 5%;
     font-size: 200%;
+  }
+  header nav ul li {
+    font-size: 100%;
   }
 }
