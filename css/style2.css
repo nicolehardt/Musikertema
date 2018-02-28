@@ -45,11 +45,10 @@ body {
 #overlay #overlaycross {
   background-color: transparent;
   border: none;
-  position: absolute;
   font-size: 200%;
-  left: 85%;
-  top: 3%;
   z-index: 4;
+  display: inline-block;
+  margin-left: 90px;
 }
 
 #logo {
@@ -78,13 +77,14 @@ header {
 header #freija {
   width: 55%;
   margin-left: 5%;
+  display: inline-block;
+  float: left;
 }
 header #burgerknapper {
   font-size: 200%;
-  position: absolute;
-  left: 85%;
-  top: 3%;
   z-index: 2;
+  display: inline-block;
+  margin-left: 25%;
 }
 header #burgerknapper button {
   background: transparent;
