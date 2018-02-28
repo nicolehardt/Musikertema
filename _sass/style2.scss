@@ -218,11 +218,15 @@ footer{
     padding-top: 0;
     margin-bottom: 10%;
     #freija{
-      padding-top: 2.6em;
       width: 15%;
-      margin-left: 12.6%;
+      margin-left: 7%;
+      margin-top: 4%;
     }
-
+    #burgerknapper{
+      font-size: 200%;
+      margin-left: 68%;
+      margin-top: 5%;
+    }
     /*.logo{
       width: 8%;
       padding-top: 0.5em;
@@ -255,6 +259,10 @@ footer{
 
 @media screen and (min-width:1150px){
   header{
+    #freija{
+      padding-top: 2.6em;
+      margin-left: 12.6%;
+    }
     #burgerknapper{
       //top: 10%;
       //left: 86.5%;
