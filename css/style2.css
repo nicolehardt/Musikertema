@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Hind+Madurai:700|Nanum+Gothic");
+@import url("https://fonts.googleapis.com/css?family=Hind+Madurai:700|Quicksand");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -24,7 +24,7 @@ h2 {
 }
 
 p, a {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
 }
 
@@ -198,6 +198,7 @@ footer #facebookframe {
   #overlay #overlaycross {
     top: 10%;
     left: 86.5%;
+    font-size: 200%;
   }
   #overlay img {
     width: 28%;
@@ -229,6 +230,7 @@ footer #facebookframe {
   header #burgerknapper {
     top: 10%;
     left: 86.5%;
+    font-size: 200%;
   }
 
   main iframe {

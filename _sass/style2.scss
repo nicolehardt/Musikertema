@@ -1,7 +1,7 @@
 @import "_mixin";
 @import "_variables";
 @import "_reset";
-@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:700|Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:700|Quicksand');
 
 body{
   background-image: url("./waterphone.jpg");
@@ -188,6 +188,7 @@ footer{
     #overlaycross{
       top: 10%;
       left: 86.5%;
+      font-size: 200%;
     }
     img{
       width: 28%;
@@ -213,6 +214,7 @@ footer{
     #burgerknapper{
       top: 10%;
       left: 86.5%;
+      font-size: 200%;
     }
     /*.logo{
       width: 8%;
