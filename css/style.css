@@ -66,8 +66,6 @@ body {
 
 header {
   padding-top: 0.5em;
-  -webkit-transition: opacity 2s ease in;
-  transition: opacity 2s ease in;
 }
 header #freija {
   width: 55%;
