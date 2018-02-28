@@ -17,6 +17,15 @@ body{
   opacity: 0.9;
   z-index: 3;
   height: 100%;
+  #overlaycross{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    font-size: 200%;
+    left: 85%;
+    top: 3%;
+    z-index: 4;
+  }
 }
 #logo{
   width: 95%;
@@ -150,6 +159,10 @@ footer{
       width: 75%;
       left: 12%;
     }
+    #overlaycross{
+      font-size: 320%;
+      top: 5%;
+    }
   }
 
   header{
@@ -171,7 +184,11 @@ footer{
   }
 
   #overlay{
-    text-align: center;
+    //text-align: center;
+    #overlaycross{
+      top: 10%;
+      left: 86.5%;
+    }
     img{
       width: 28%;
       left: 35%;

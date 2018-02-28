@@ -42,6 +42,15 @@ body {
   z-index: 3;
   height: 100%;
 }
+#overlay #overlaycross {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  font-size: 200%;
+  left: 85%;
+  top: 3%;
+  z-index: 4;
+}
 
 #logo {
   width: 95%;
@@ -165,6 +174,10 @@ footer #facebookframe {
     width: 75%;
     left: 12%;
   }
+  #overlay #overlaycross {
+    font-size: 320%;
+    top: 5%;
+  }
 
   header #burgerknapper {
     font-size: 320%;
@@ -182,8 +195,9 @@ footer #facebookframe {
     height: auto;
   }
 
-  #overlay {
-    text-align: center;
+  #overlay #overlaycross {
+    top: 10%;
+    left: 86.5%;
   }
   #overlay img {
     width: 28%;
